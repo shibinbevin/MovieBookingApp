@@ -1,0 +1,22 @@
+html
+  head
+    title Booking Confirmation
+  body
+    div(style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;")
+      h1(style="color: #4CAF50; text-align: center;") Booking Confirmation
+      p(style="text-align: center;") Thank you for choosing our services! Your booking has been confirmed.
+      
+      div(style="background-color: #f2f2f2; padding: 10px; margin-top: 20px;")
+        h2(style="color: #333;") Booking Details
+        p(style="margin: 0;") Booking ID: #{bookingId}
+        p(style="margin: 0;") Date: #{date}
+        p(style="margin: 0;") Timing: #{timing}
+        p(style="margin: 0;") Tickets Booked: #{tickets}
+        p(style="margin: 0;") Ticket Amount: #{amount}
+
+      div(style="margin-top: 20px;")
+        h2(style="color: #333;") Contact Information
+        p(style="margin: 0;") If you have any questions or need assistance, please contact us at XXXXXXXXXX.
+
+      div(style="margin-top: 20px; text-align: center;")
+        p(style="font-size: 0.8em; color: #777;") This is an automated confirmation email. Please do not reply.
